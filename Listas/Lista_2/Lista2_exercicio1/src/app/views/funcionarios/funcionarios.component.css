@@ -1,0 +1,70 @@
+.gestor-wrapper {
+    display: grid;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.gestor {
+    border: 4px solid rgb(99, 247, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 17px;
+    font-size: 24px;
+    background-color: rgb(196, 254, 255);
+    border-radius: 30px;
+}
+
+.gestor span {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.gestor:hover {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.subordinados {
+    border: 4px solid rgb(134, 249, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(207, 254, 255);
+    font-size: 20px;
+    margin-bottom: 17px;
+    border-radius: 30px;
+}
+
+.subordinados:hover {
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.subordinados span {
+    font-size: 18px;
+}
+
+.subordinados span:hover {
+    font-size: 28px;
+    color: rgb(37, 244, 255);
+}
+
+.analistas-wrapper {
+    display: grid;
+    justify-content: space-around;
+}
+
+.analistas {
+    border: 4px solid rgb(255, 37, 244);
+    text-align: center;
+    background-color:rgb(255, 186, 248);
+    color: rgb(0, 0, 0);
+    margin-bottom: 18px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.analistas:hover {
+    font-size: 21px;
+    cursor: pointer;
+}
