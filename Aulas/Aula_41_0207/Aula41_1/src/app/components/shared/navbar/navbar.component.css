@@ -1,0 +1,15 @@
+ul {
+  display: flex;
+}
+
+ul a {
+  text-decoration: none;
+  margin: 5px;
+  font-size: 30px;
+  color: rgb(0, 0, 128);
+  cursor: pointer;
+}
+
+a:hover {
+  font-size: 31px;
+}

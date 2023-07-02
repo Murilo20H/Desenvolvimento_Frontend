@@ -1,0 +1,20 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.animais {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  border: 3px solid rgb(0, 0, 128);
+  justify-content: center;
+  margin: 5px;
+}
+
+.animais p {
+  font-size: 24px;
+  margin: 5px;
+}
