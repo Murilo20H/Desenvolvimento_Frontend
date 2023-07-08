@@ -1,0 +1,37 @@
+.pokemon-wrapper {
+  display: grid;
+  justify-content: center;
+}
+
+.pokemons {
+  border: 4px solid rgb(0, 0, 74);
+  text-align: center;
+  background-color:rgb(169, 205, 255);
+  color: rgb(0, 0, 74);
+  margin-bottom: 18px;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 30px;
+  width: 250px;
+}
+
+.pokemons:hover {
+  cursor: pointer;
+}
+
+#imagem {
+  width: 200px;
+}
+
+#informacoes {
+  font-size: 22px;
+}
+
+#texto:hover {
+  font-size: 21px;
+  text-decoration: underline;
+}
+
+#imagem:hover {
+  width: 235px;
+}
