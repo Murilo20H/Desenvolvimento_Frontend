@@ -1,0 +1,13 @@
+p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid white;
+  color: white;
+  background-color: cornflowerblue;
+  margin-top: 100px;
+  border-radius: 28px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 40px;
+}
