@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 6px solid white;
+  color: white;
+  background-color: cornflowerblue;
+  margin-top: 120px;
+  border-radius: 30px;
+  margin-left: 32%;
+  margin-right: 32%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.form p {
+  margin-top: 10px;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.form input, button {
+  width: 400px;
+  margin-top: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: 26px;
+  margin-bottom: 2px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.form button {
+  background-color: rgb(255, 255, 255);
+  color: cornflowerblue;
+  margin-bottom: 10px;
+  font-size: 28px;
+  transition: 0.5s;
+}
+
+.form button:hover {
+  font-size: 34px;
+  cursor: pointer;
+  background-color: black;
+  transition: 0.5s;
+}
