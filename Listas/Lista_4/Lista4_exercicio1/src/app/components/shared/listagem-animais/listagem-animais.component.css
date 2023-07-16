@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.animais {
+  flex-direction: row;
+  border: 3px solid rgb(255, 255, 255);
+  margin: 10px;
+  border-radius: 15px;
+  width: 300px;
+  justify-content: center;
+  color: white;
+}
+
+.animais p {
+  margin: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.animais p:hover {
+  font-size: 28px;
+  transition: 0.7s;
+}
