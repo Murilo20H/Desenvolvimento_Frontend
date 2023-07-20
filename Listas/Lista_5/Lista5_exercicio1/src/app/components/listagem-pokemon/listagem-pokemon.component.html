@@ -1,0 +1,9 @@
+<div class="main">
+  <div class="pokemons" *ngFor="let pokemon of pokemons">
+    <p>Informações do Pokemon</p>
+    <img [src]="pokemon.sprites.front_default">
+    <p>Nome: {{ pokemon.name }}</p>
+    <p>Peso: {{ pokemon.weight }}</p>
+    <p>Experiência base: {{ pokemon.base_experience }}</p>
+  </div>
+</div>
