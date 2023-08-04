@@ -1,0 +1,86 @@
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+
+/* FORMULÁRIO */
+
+.content-form {
+  display: flex;
+  width: 50%;
+  background-color: lightblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  border-top-right-radius: 90%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-form input, button {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin: 5px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.content-form button {
+  cursor: pointer;
+  background-color: rgb(195, 255, 245);
+  color: black;
+}
+
+/* IMAGEM */
+
+.content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border-bottom-left-radius: 90%;
+  background-color: lightgreen;
+  flex-direction: column;
+}
+
+.content-image img {
+  width: 50%;
+  border-radius: 40%;
+}
+
+.content-image img {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 820px) {
+  .content-image {
+    display: none;
+  }
+  .content-form {
+    width: 100%;
+    border-top-right-radius: 0;
+  }
+}
+
+@media screen and (max-width: 305px) {
+  .content-image {
+    display: none;
+  }
+  .content-form {
+    width: 100%;
+    border-top-right-radius: 0;
+  }
+
+  .content-form input, button {
+    width: 260px;
+  }
+}
