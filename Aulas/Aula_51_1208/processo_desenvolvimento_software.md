@@ -1,6 +1,4 @@
 # Processo de desenvolvimento de software (12/08/2023)
-
-## Definição
     O processo de desenvolvimento de software é tudo aquilo que envolve,
     esforço de criar, desenvolver, projetar, programar e dar suporte ao software.
     Podemos dividi-lo nas seguintes etapas:
