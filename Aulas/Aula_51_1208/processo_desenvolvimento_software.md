@@ -45,8 +45,3 @@
     6 - Implantação/publicação (Subir para produção)
         Após os testes e review inicia-se a etapa de publicação do software nos
         servidores de produção, para que os clientes começem a usar o software.
-
-<br>
-
-## A
-    - A
