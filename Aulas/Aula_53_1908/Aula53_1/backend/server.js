@@ -18,8 +18,27 @@ app.get("/listar-pagamentos", async (req, res) => {
     }
 })
 
+app.get("/listar", async (req, res) => {
+    try {
+        let dataReferencia = req.query.dataPagamento
+        let pagamentoTotal = 0
+        // filtro por data
+        let pagamentos = await Pagamento.find({ dataPagamento: dataReferencia })
+        for (let pagamento of pagamentos) {
+            pagamentoTotal += pagamento.valorPagamento
+        }
+        return res.status(200).json(pagamentoTotal)
+    } catch (error) {
+        return res.status(500).json(error)
+    }
+})
+
 app.post("/cadastrar-pagamento", async (req, res) => {
     let pagamento = { ...req.body }
+    let pagamentoValido = pagamento.tipoPagamento.toUpperCase() != "C" && pagamento.tipoPagamento.toUpperCase() != "D"
+    if (pagamentoValido){
+        return res.status(400).json('Forma de pagamento inválida - tente apenas [C ou D]')
+    }
     try {
         await Pagamento.create(pagamento)
         return res.status(201).json({ message: "Pagamento criado com sucesso!" })
