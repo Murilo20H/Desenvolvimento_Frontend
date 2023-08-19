@@ -1,0 +1,14 @@
+.main h1{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 46px;
+  transition: 0.3s;
+}
+
+.main h1:hover {
+  font-size: 46.4px;
+}

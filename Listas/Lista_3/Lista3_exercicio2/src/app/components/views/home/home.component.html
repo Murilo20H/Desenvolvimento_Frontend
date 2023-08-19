@@ -1,0 +1,14 @@
+<div class="pokemon-wrapper">
+  <div class="pokemons" *ngFor="let pokemon of pokemons">
+    <img id="imagem" src={{pokemon.imagem}}>
+    <br>
+    <span id="informacoes">Informações do Pokemon</span>
+    <p id="texto">Número da pokedex: {{ pokemon.pokedex }}</p>
+    <p id="texto">Nome: {{ pokemon.nome }}</p>
+    <p id="texto">Tipo: {{ pokemon.tipo }}</p>
+    <p id="texto">Altura: {{ pokemon.altura }}</p>
+    <p id="texto">Peso: {{ pokemon.peso }}</p>
+    <p id="texto">Categoria: {{ pokemon.categoria }}</p>
+    <p id="texto">Habilidade: {{ pokemon.habilidades }}</p>
+  </div>
+</div>
