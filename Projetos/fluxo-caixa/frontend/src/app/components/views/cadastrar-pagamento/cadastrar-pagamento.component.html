@@ -1,0 +1,13 @@
+<app-toolbar [titulo]="'Adicionar Pagamento'"></app-toolbar>
+<div class="form">
+  <p>ADICIONAR PAGAMENTO</p>
+  <input type="text" [(ngModel)]="descricao" placeholder="Descrição do pagamento">
+  <input type="number" [(ngModel)]="valorPagamento" placeholder="Valor em reais">
+  <select required [(ngModel)]="tipoPagamento">
+    <option selected="selected" disabled>Selecione o tipo de pagamento</option>
+    <option value="C">Crédito</option>
+    <option value="D">Débito</option>
+  </select>
+  <input type="date" [(ngModel)]="dataPagamento" placeholder="Data">
+  <button (click)="adicionarPagamento()">SALVAR</button>
+</div>
